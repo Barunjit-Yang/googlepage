@@ -1,0 +1,131 @@
+.nav{
+    display: flex;
+    justify-content: right;
+}
+.header{
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    font-size: 20px;
+}
+.header div{
+    margin: 0 2px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.dot{
+    height: 30px;
+    width: 30px;
+}
+.adjustsize{
+    height: 100%;
+    width: 100%;
+}
+
+.topone{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30vh;
+    margin-top: 10%;
+}
+input{
+    /* width: 100%; */
+ 
+    outline: 0;
+    border: 0;  
+    font-size: 20px;
+}
+.searchbar{
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: 1px solid ;
+    width: 770px;
+    display: grid;
+    grid-template-columns: 34px auto 34px ;
+}
+.searchicon{
+    /* border: 1px solid; */
+}
+.voiceicon{
+    /* position: absolute;   */
+}
+.googlelogo{
+    height: 130px;
+    width: 360px;
+    margin-bottom: 30px;
+}
+.googlelogo img{
+    height: 100%;
+    width: 100%;
+}
+.toptwo-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+.toptwo-items div{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.toptwo-items div:hover{
+    background-color: rgb(232, 230, 230);
+}
+.loginlinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginlinks img{
+    height: 60px;
+    width: 60px;
+}
+.toptwo-items a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.topthree-items{
+    display: flex;
+    justify-content: center;
+}
+.topthree-items div{
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+.topthree-items div:hover{
+    background-color: rgb(232, 230, 230);
+}
+.loginlinks-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.topthree-items a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media(max-width:390){
+    .searchbar{
+        width: 200px;
+    }
+    
+
+}
+
